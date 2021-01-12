@@ -9,4 +9,8 @@ This is a webapplication which is intended to make a  personal portfolio .
 3.Gives network response alert
 
 
-<a href="E">c</a>
+Visit the site at-
+<a href="https://shubhampandeyhld.github.io/portfolio/">shubhampandey></a>
+
+#Note-----
+<h5>Please feel free to open any issue regarding this repo.<h5>
