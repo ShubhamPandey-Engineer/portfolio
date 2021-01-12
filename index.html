@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Shubham Portfolio</title>
+<!--favicon-->
+<link rel="icon" type="image/png" sizes="36*36" href="img/fav-36.png">
+
+
+<!-- meta tags for cache clear-->
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+
+<!-- seo tags-->
+
+<meta property="og:url" content="http://www.shubhampandey.cf" />
+<meta name="title" content="Shubham Pandey Portfolio" />
+<meta name="description" content="This is Shubham Pandey web based Portfolio" />
+
+<meta property="og:description" content="This is Shubham Pandey web based Portfolio" />
+<meta property="og:keywords" content="shubham,shubham pandey, shubhampandey portfolio,portfolio,shubham,shubhampnd" />
+<meta property="og:type" content="website" />
+<meta property="fb:app_id" content="235502160896786" />
+
+<meta property="og:image" content="http://www.shubhampandey.cf/img/me.jpg" />
+<script src="https://use.fontawesome.com/577b3dea3d.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+
+<!-- cdn link for bootstrap 3-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<!-- cdn link for bootstrap 3 ends-->
+
+<!-- linking index.css-->
+<link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<!-- network update-->
+<div id="network-update" style="position:fixed;width:100vw;z-index:9999999" class="alert alert-primary  w-100 bg-info text-center  "
+role="alert">
+<button type="button" style="font-weight: bolder;" class="close-network-alert close  m-auto "  aria-label="Close">
+<span style="font-weight: bolder;font-size:55px;color:black" aria-hidden="true"
+class="font-weight-bolder">&times;</span>
+<span style="font-weight: bolder;" class="sr-only">Close</span>
+</button>
+<label id="network-cont"></label>
+</div>
+</div>
+
+<body   onoffline="offline()"  ononline="online()" data-spy="scroll" id="myscroll" data-target=".navbar" data-offset="50">
+<div class="loader-wrapper">
+<div class="initial-loader">
+<h2 class="loader-text">Loading ..... Please wait</h2>
+<div class="loader-line-wrapper">
+<div id="loading-line"></div></div>
+</div>
+</div>
+
+
+
+<button class='btn btn-lg' id='night-mode' ><i class='fa fa-eye'></i></button>
+
+<nav style="z-index: 99;" id="navbar" class=" navbar navbar-inverse   fixed-top">
+
+
+
+<div class="container">
+<div class="navbar-header   ">
+<button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<ul class="navi-sm p-0 text-center m-auto">
+<li class="nav-items icon"><a href="#myscroll" class="nav-links " id="top"><img
+src="https://img.icons8.com/color/48/000000/up-squared.png" /></a>
+</li>
+<li class="nav-items icon text-center ">
+<a class="nav-links " href="#contact" id="bottom"><img
+src="https://img.icons8.com/color/48/000000/down-squared.png" /></a>
+</li>
+</ul>
+</div>
+
+
+<div>
+<div  class="collapse navbar-collapse  " id="myNavbar">
+
+
+<ul class="navbar-nav nav">
+<li class="nav-item active">
+<a class="nav-link  " href="#home">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#aboutme">About me</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#resume">Resume</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#work">Work</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#certi">Achievements</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+
+<ul class="navi-lg  ">
+<li class="nav-items"><a href="#top" class="nav-links  " id="top"><img
+src="https://img.icons8.com/color/48/000000/up-squared.png" /></a>
+</li>
+<li class="nav-items">
+<a class="nav-links" href="#contact" id="#contact"><img
+src="https://img.icons8.com/color/48/000000/down-squared.png" /></a>
+</li>
+
+</ul>
+</ul>
+
+</div>
+</div>
+</div>
+</nav>
+
+
+
+<div class="sec-row  container">
+<section id="home"  class="" style="margin-bottom:0px;padding-top: 70px" >
+<div class="row container  ">
+<div class="tag-logo text-center img-fluid col-md-3 col-sm-6 col-xs-12">
+<img  src="img/"></div>
+<div class="tagline text-center  col-md-9 col-sm-6  col-xs-12">
+<h3 class="tg-1 p-5">Learning<span class="tg-2"> and</span>
+<span class="tg-3">Implementing</span>
+<span class="tg-4"></span></h3> 
+
+</div></div>
+
+</section>
+
+
+
+<div id="dark-alert" class="alert bg-danger col-12 fade alert-dismissible " role="alert">
+<span style="font-size: 2rem"> Dark mode is On.Use <span><i style="color:green;background:black;width:40px;height:40px;line-height:40px;text-align: center;" class="fa fa-eye">
+</i>&nbsp;</span>to switch back to day mode &nbsp;<span><i style="color:yellow;background:black;width:40px;height:40px;line-height:40px;text-align: center;"
+class="fa fa-eye">
+</i>&nbsp;</span></span>
+
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<bold style="color:black;font-size: 3rem;" aria-hidden="true">&times;</bold>
+</button>
+</div>
+
+<hr>
+<div  id="aboutme"  onscroll="up()" style="padding-top: 75px">
+<h2 class="head text-center  ">About me</h2>
+<div class="row container m-auto ">
+<div class="col-md-3   about-img   col-xs-12  img-fluid">
+
+<img src="img/me.jpg">
+</div>
+<div class="about-text  col-md-9   col-xs-12 ">
+<div class='about-cont txt text-justify '>
+I am a enthusiastic student about to finish my graduation.Currently looking for my first job profile .Truly believes in giving my 100% input with dedication ,hardwork. </div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+<!--
+<div class="blocks col-md-4">A
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+<span class="small">+ vibes</span>
+
+
+</div>
+
+-->
+
+
+<section id="resume" class="container " style="padding-top:55px">
+<h2 class="head text-center">Resume</h2>
+<div class="img-fluid  col-md-12 text-center col-xs-12"><img class="resume-img" width="65%"  src="img/resume.jpg">
+<a  download="shubhampandey_resume" class="icon" href="img/Resume.pdf">
+<img src="https://img.icons8.com/fluent/48/000000/download.png" /></a> </div>
+<div>
+</section>
+<hr>
+
+<section id="work" class=""  style="padding:15px;padding-top: 75px;">
+<h2 class=" head text-center">Work<!-- <img src="https://img.icons8.com/plasticine/100/000000/work.png" />--></h2>
+
+
+
+<ul id="tabs" class= " nav nav-tabs nav-justified ">
+<li class="bt "> <a class="tab-links" href="#" id="wor">Work</a></li>
+<li class=" bt "><a href="#" class="tab-links" id="pers">Personal</a></li>
+</ul>
+
+
+
+<div  class="wor-cont container">
+<div   class="row">
+
+<div class="col-md-4   col-xs-12">
+<div class=" card " style="width: ">
+<img class="card-img-top img-fluid  text-center"  src="img/logo1.jpg" alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title text-center">Ek Daana</h5>
+<p class="card-text text-justify">
+Successfully developed web application which connect a food donor with Covid-19 victim.
+Intregated several API for betterment for user.
+</p>
+<div class="row text-center">                       
+<a href="https://ekdaana.com"  target="_blank" class="btn p-0 link  btn-primary visit-btn">visit</a>
+
+<div class="btn-group work-skills">
+<button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+aria-expanded="false">
+Skills 
+</button>
+<div class="dropdown-menu skills-list ">
+<ul class="text-center"><li>HTML</li>
+<li>CSS3</li>
+
+<li>PHP</li>
+<li>AJAX</li>
+<li>MYSQL</li>
+<li>DBMS</li>
+
+</ul>
+
+</div></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="col-md-4 col-xs-12">
+<div class="card" style="">
+<img class="card-img-top" src="img/logo2.jpg" alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title text-center">Ideatv News</h5>
+<p class="card-text text-justify">This project was part of my internship program ,was asked to showcase my skills for making some coporate work.</p>
+<div class="row text-center">
+
+<a href="https://www.ideatvnews.com"  target="_blank" class="btn btn-primary visit-btn">visit</a>
+<div class="btn-group work-skills">
+<button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+aria-expanded="false">
+Skills
+</button>
+<div class="dropdown-menu skills-list ">
+<ul class="text-center">
+<li>WordPress</li>
+<li>Google Ad Sense</li>
+
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+
+
+</ul>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+<div class="col-md-4 col-xs-12">
+<div class="card" style="">
+<img style="width:140px;height:110px" class="card-img-top" src="img/logo3.jpg" alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title text-center">Pathshala News</h5>
+<p class="card-text text-justify ">A webapp based on WordPress which provides the news to the viewers .</p>
+<div class="row text-center">
+
+<a href="https://news.pathshalanews.com" target="_blank" class="btn btn-primary visit-btn">visit</a>
+<div class="btn-group work-skills">
+<button class="btn btn-primary btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+aria-expanded="false">
+Skills
+</button>
+<div class="dropdown-menu skills-list ">
+<ul class="text-center">
+<li>WORDPRESS</li>
+<li>HTML</li>
+
+<li>CSS3</li>
+<li></li>
+
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<section  style="display: none" class="m-auto justify-content-center   container  pers-cont">
+
+
+
+<div class="col-md-4 justify-content-center  col-xs-12">
+<div class=" card  ">
+<img class="card-img-top img-fluid  text-center" src="https://indiacovid19stats.000webhostapp.com/coronaviruspng.png" alt="covid-img">
+<div class="card-body">
+<h5 class="card-title text-center">Covid-19 Stats</h5>
+<p class="card-text text-justify">This is a web application which shows current statistics of Covid-19 patients using restful API's.</p>
+<div class="row text-center">
+<a href="https://indiacovid19stats.000webhostapp.com" target="_blank" class="btn p-0  btn-primary visit-btn">visit</a>
+
+<div class="btn-group work-skills">
+
+<button  class="btn  btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+Skills
+</button>
+
+<div class="dropdown-menu skills-list ">
+<ul class="text-center">
+<li>HTML</li>
+<li>CSS3</li>
+
+<li>PHP</li>
+<li>MYSQL</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-md-4  col-xs-12">
+<div class=" card m-auto " >
+<img  class="card-img-top img-fluid  text-center" src="https://designmanagementlucerne.files.wordpress.com/2013/10/cmyk_rgb1.png?w=552" alt="db-img">
+<div class="card-body">
+<h5 class="card-title text-center">Find the RGB color</h5>
+<p class="card-text text-justify">A pure javascript based game application. </p>
+<div class="row text-center">
+<a href="https://shubhampandeyhld.github.io/Js-project/"  target="_blank" class="btn p-0  visit-btn  btn-primary">visit</a>
+
+<div class="btn-group work-skills">
+<button  class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="alse">
+SKills
+</button>
+<div class="dropdown-menu skills-list ">
+<ul class="text-center">
+<li>HTML</li>
+<li>CSS3</li>
+
+<li>Javascript</li>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 justify-content-center  col-xs-12">
+<div class=" card  ">
+<img class="card-img-top img-fluid  text-center"  alt="Search-my-movie">
+<div class="card-body">
+<h5 class="card-title text-center">Search My Movie</h5>
+<p class="card-text text-justify">This is a web application which shows the movie,series statistics using a restful API.</p>
+<div class="row text-center">
+<a href="http://searchmymovie.herokuapp.com/"   target="_blank" class="btn p-0  btn-primary visit-btn">visit</a>
+
+<div class="btn-group work-skills">
+<button  class="btn btn-primary  dropdown-toggle" type="button" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="alse">
+Skills
+</button>
+<div class="dropdown-menu skills-list ">
+<ul class="text-center">
+<li>HTML</li>
+<li>CSS3</li>
+
+<li>Node js</li>
+<li>Express</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+</section>
+<hr>
+<section id="edu" class="container">
+
+
+
+<h2 class="head text-center ">Education<!--<img class="head-icon" src="https://img.icons8.com/ios-glyphs/65/000000/education.png" />--></h2>
+
+
+<div class="edu ">
+
+
+<div class=" ac edu-1">
+<h4 class="title ">Graduation</h4>
+<div class="row edu-info ">
+<div class="col-md-3 col-xs-12">B.Tech(Computer Science Eng.)</div>
+<div class="col-md-5 col-xs-12">Birla Institute of Applied Sciences</div>
+<div class="col-md-2 col-xs-12">64%</div>
+<div class="col-md-2 col-xs-12">2017-2021</div>
+
+
+</div>
+</div>
+
+<div class="ac edu-1">
+<h4 class="title  ">12th Standard</h4>
+<div class="row edu-info">
+<div class="col-md-3 col-xs-12 edu-txt ">12th Standard</div>
+<div class="col-md-5 col-xs-12 edu-txt ">Naini Valley School</div>
+<div class="col-md-2 col-xs-12 edu-txt ">71%</div>
+<div class="col-md-2 col-xs-12 edu-txt ">2017</div>
+
+
+</div>
+</div>
+
+<div class="ac edu-1">
+<h4 class="title">10th Standard</h4>
+<div class="row edu-info  ">
+<div class="col-md-3   col-xs-12  edu-txt ">10 Standard</div>
+<div class="col-md-5 col-xs-12 edu-txt ">Naini Valley School</div>
+<div class="col-md-2 col-xs-12 edu-txt ">78%</div>
+<div class="col-md-2 col-xs-12 edu-txt ">2015</div>
+
+
+</div>
+</div>
+
+
+
+</div>
+</section>
+<hr>
+
+<section id="certi" style="padding-top: 75px;" class="container">
+
+<h2 class="head">Certification's</h2>
+
+<div class="modal fade" id="pop-mod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+
+<div class="modal-body">
+<img width="100%" src="" class="pop-img">
+</div>
+<div class="modal-footer">
+<button type="button"   id="cancel-mod" class="btn btn-lg  m-auto bg-dark" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="row">
+
+<div id="c1" class="col-md-4 p-5 certi col-xs-12">
+
+<div class="col-xs-12  certi-img ">
+<div class="col-xs-12 container text-center certi-show"><button class="btn-dark btn-lg m-auto"><a
+href="https://drive.google.com/file/d/1nU1mC0Gjlo4xC42FcarOpIP55zwwSn8K/view?usp=sharing">view</button></a></div>
+
+<img src="img/cer1.jpg">
+</div>
+</div>
+
+<div id="c2" class="col-md-4 certi col-xs-12">
+<div class="col-xs-12  certi-img ">
+<div class="col-xs-12 container text-center certi-show"><button class="btn-dark btn-lg m-auto"><a
+href="https://drive.google.com/file/d/16sphCSABsdaai86ecTn16tEjkKKXtN3p/view?usp=sharing"">view</button></a></div>
+
+<img src="img/cer2.jpg">
+</div>
+</div>
+
+
+
+<div id="c3" class="col-md-4 certi col-xs-12">
+<div class="col-xs-12  certi-img ">
+<div class="col-xs-12 container text-center certi-show"><button class="btn-dark btn-lg m-auto"><a
+href="https://drive.google.com/file/d/1mDPIJZCzzL06LCBoFn4OxMLgFGrIkiAd/view?usp=sharing">view</button></a></div>
+
+<img src="img/cer3.jpg">
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="row">
+
+<div  id="c4" class="col-md-4 certi col-xs-12">
+
+<div class="col-xs-12  certi-img ">
+<div class="col-xs-12 container text-center certi-show"><button class="btn-dark btn-lg m-auto"><a
+href="https://drive.google.com/file/d/1V4-drHgfzKqp-F4Mj5_zc8-h5zL0DGaM/view?usp=sharing">view</button></a></div>
+
+<img src="img/cer4.jpg">
+</div>
+</div>
+
+<div id="c5" class="col-md-4 certi col-xs-12">
+<div class="col-xs-12  certi-img ">
+<div class="col-xs-12 container text-center certi-show"><button class="btn-dark btn-lg m-auto"><a
+href="https://drive.google.com/file/d/1uDCbWF7lKrSYX-539bs-xkMGknL0yjfH/view?usp=sharing">view</button></a></div>
+
+<img src="img/cer5.jpg">
+</div>
+</div>
+
+
+
+<div  id="c6" class="col-md-4 certi col-xs-12">
+<div class="col-xs-12  certi-img ">
+<div class="col-xs-12 container text-center certi-show"><button class="btn-dark btn-lg m-auto"><a
+href="https://drive.google.com/file/d/1LnzHHY-olf1VdOQcMRj-mpWw8eYX5TDM/view?usp=sharing">view</button></a></div>
+
+<img src="img/cer6.jpg"></div>
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+<hr>
+
+
+
+<section id="contact" style="padding-top:55px;" class="container">
+<h2 class="head">Contact
+<!--<img src="https://img.icons8.com/color/70/000000/business-contact.png" />-->
+</h2>
+<div class="container">
+<div class="row">
+<div class="col-md-3 cont text-center cont-info cont-info">
+<img src="https://img.icons8.com/ios-filled/50/000000/email-open.png" />
+<li><a target="_blank" class="cont-text txt"
+href="mailto:shubhampnd414@gmail.com">shubhampnd414@gmail.com</a></li>
+</div>
+<div class="col-md-3  cont text-center cont-info">
+<img src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+<li><a  target="_blank" class="cont-text txt" href="https://github.com/shubhampandeyhld">shubhampandeyhld</a></li>
+
+</div>
+<div class="col-md-3 cont text-center cont-info">
+<img src="https://img.icons8.com/ios-filled/50/000000/linkedin-2.png" />
+<li><a target="_blank" class="cont-text txt"
+href="https://www.linkedin.com/in/shubhampandey-cf/">shubhampandey-cf</a></li>
+</div>
+
+<div class="col-md-3 cont text-center cont-info">
+<img width="50px" height="50px" src="img/sp-phone.png"/>
+<li><a target="_blank" class="cont-text txt"
+href="tel:8433279172"><b style='color:black'>+91</b> 8433279172  / 7351356884</a></li>
+</div>
+
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+<section class="container">
+<div class="row   items-center">
+
+<form id="contact-form" class="col-md-5   " method="POST">
+<h4 id="contact-result"  class="text-uppercase " style="color:purple;">Submit your query</h4>
+
+<div class="form-group  ">
+<input id="user-name" type="text" required placeholder="Your fullname" class="form-control">
+
+</div>
+<div class="form-group">
+<input type="email" required class="form-control" id="user-email" placeholder="Your email address">
+</div>
+<div class="form-group">
+<textarea placeholder="Enter your message" required class="form-control" id="user-message"></textarea>
+
+</div>
+<div  class="row " id="verify" style="">
+<div class="col-md-5 col-sm-12">
+<h4 id="verify-content"></h4>
+
+</div>
+<div style="display: flex;">
+<div class="col-md-6  col-sm-5">
+<input type="text" class="form-control  font-weight-normal" placeholder="Enter the code" oninput="verify(this.value)"
+id="verify-user">
+</div>
+<div class="col-md-5 col-sm-2">
+<button type="button" class="btn btn-dark   btn-sm" onclick="genRandom()"><i class="fa fa-repeat"
+aria-hidden="true"></i></button>
+
+</div></div>
+
+</div>
+<!--<div class=" col-md-6 col-sm-2  text-center">
+<h4 id="verify-content"></h4>
+</div>
+<div class=" form-group col-md-4 col-sm-4">
+<input type="text" class="form-control p-0 font-weight-normal" placeholder="Enter the code"
+oninput="verify(this.value)" id="verify-user">
+</div>
+<div class=" form-group col-md-1 col-sm-4">
+<button type="button" class="btn btn-dark   btn-sm" onclick="genRandom()"><i class="fa fa-repeat"
+aria-hidden="true"></i></button>
+</div>
+</div>
+<br>
+<div class="form-group">
+<input class="btn btn-lg" type="submit" style="width:85px" value="send" id="send">
+</div>-->
+
+<div class="form-group">
+<input class="btn btn-lg" type="submit" style="width:85px" value="send" id="send">
+</div>
+</form>
+
+</div>
+</section>
+
+
+<!--
+<div class=" row text-center   ">
+<form id="contact-form" class="col-md-5 col-sm-12  " method="POST">
+<h4 id="contact-result" style="color:gray">Submit your query</h4>
+
+<div class="form-group  ">
+<input id="user-name" type="text" required placeholder="Your fullname" class="form-control">
+
+</div>
+<div class="form-group">
+<input type="email" required class="form-control" id="user-email" placeholder="Your email address">
+</div>
+<div class="form-group">
+<textarea placeholder="Enter your message" required class="form-control" id="user-message"></textarea>
+
+</div>
+<div id="verify" class="row  ">
+<div class=" col-md-6 col-sm-5  text-center">
+<h4 id="verify-content"></h4>
+</div>
+<div class=" form-group col-md-4 col-sm-4">
+<input type="text" class="form-control p-0 font-weight-normal" placeholder="Enter the code"
+oninput="verify(this.value)" id="verify-user">
+</div>
+<div class=" form-group col-md-1 col-sm-4">
+<button type="button" class="btn btn-dark   btn-sm" onclick="genRandom()"><i class="fa fa-repeat" aria-hidden="true"></i></button>
+</div>
+</div>
+<br>
+<div class="form-group">
+<input class="btn btn-lg" type="submit" style="width:85px" value="send" id="send">
+</div>
+</form>
+
+</div>-->
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="foot" class="container-fluid bg-dark">
+<div class="container ">
+<div class="row text-center ">
+<div class="col-md-12  col-xs-12">Designed By
+<img width="120px" height="83px" src="img/one.jfif">
+</div>
+<h5>All Copyright under shubhampandey.cf<i class="fa fa-copyright" aria-hidden="true"></i></h5>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+<script src="js/index.js"></script>
+
+</html>
