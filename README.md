@@ -1,4 +1,10 @@
 # portfolio
+<style>
+  li{
+  list-style-type:none;
+  color:steelblue;
+  }
+  </style>
 
 <h5>This is a webapplication which is intended to make a  personal portfolio</h5> .
 
@@ -15,5 +21,5 @@ Visit the site at-
 <a href="https://shubhampandeyhld.github.io/portfolio/">shubhampandey></a>
 <br>
 
-#Note-----
+<h5>Note<h5>
 <h5>Please feel free to open any issue regarding this repo.<h5>
