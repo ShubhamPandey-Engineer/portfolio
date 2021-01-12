@@ -485,11 +485,11 @@ left:30%;
 
 
 /*icons */
-.cont-info img{
+.cont-info .cont-icon{
 transition: .8s ease-in-out;
 
 }
-.cont-info:hover img{
+.cont-info:hover .cont-icon{
 transform:translateY(-10px);
 
 transition: .8s ease-in-out;
