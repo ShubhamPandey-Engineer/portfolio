@@ -13,7 +13,7 @@
 
 <br><br>
 <h4>Visit the site at--- </h4>
-<a href="https://shubhampandeyhld.github.io/portfolio/">shubhampandey</a>
+<a target="_blank" href="https://shubhampandeyhld.github.io/portfolio/">shubhampandey</a>
 <br>
 
 <h4>Site look ---</h4>
