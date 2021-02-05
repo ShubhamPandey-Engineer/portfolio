@@ -27,8 +27,37 @@ var netUpdate = document.getElementById("network-update")
 var closeAlert = document.querySelector(".close-network-alert")
 var netContent = document.getElementById("network-cont")
 
-
 /*   server  connection  response code*/
+
+const network=(status)=>{
+    /*online*/
+    if (status)
+    {
+        netUpdate.style.opacity=1
+        netContent.textContent = 'You are connected to the server again.'
+        netContent.style.color='#22d43a'
+    
+
+        setTimeout(() => {
+            netUpdate.style.opacity = 0
+
+        }, 2500);
+
+        console.log('on')
+
+    }
+    else{
+        netUpdate.style.opacity = 1
+        netContent.style.color ='#e42e21'
+
+        console.log('off')
+        netContent.textContent = 'You are offline.Please check your internet.'
+
+
+    }
+}
+
+/*
 const offline = () => {
 
 netUpdate.style.visibility = 'visible'
@@ -54,7 +83,7 @@ netContent.style.color = "green"
 
 
 }
-
+*/
 
 /*   server  connection   response code ends*/
 
@@ -86,7 +115,7 @@ $(".pop-img").attr("src",c)
 
 //alert close
 closeAlert.addEventListener("click", () => {
-netUpdate.style.visibility = 'hidden'
+netUpdate.style.opacity=0
 
 })
 

@@ -46,7 +46,7 @@
 </head>
 
 <!-- network update-->
-<div id="network-update" style="position:fixed;width:100vw;z-index:9999999" class="alert alert-primary  w-100 bg-info text-center  "
+<div id="network-update" style="width:35vw;margin:auto !important;z-index:9999999" class="alert alert-primary  w-100 bg-info text-center  "
 role="alert">
 <button type="button" style="font-weight: bolder;" class="close-network-alert close  m-auto "  aria-label="Close">
 <span style="font-weight: bolder;font-size:55px;color:black" aria-hidden="true"
@@ -57,7 +57,7 @@ class="font-weight-bolder">&times;</span>
 </div>
 </div>
 
-<body   onoffline="offline()"  ononline="online()" data-spy="scroll" id="myscroll" data-target=".navbar" data-offset="50">
+<body   onoffline="network(false)"  ononline="network(true)" data-spy="scroll" id="myscroll" data-target=".navbar" data-offset="50">
 <div class="loader-wrapper">
 <div class="initial-loader">
 <div class="brand">
