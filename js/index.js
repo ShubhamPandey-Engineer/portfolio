@@ -36,10 +36,12 @@ const network=(status)=>{
         netUpdate.style.opacity=1
         netContent.textContent = 'You are connected to the server again.'
         netContent.style.color='#22d43a'
-    
+        netUpdate.classList.add("visible")
+
 
         setTimeout(() => {
             netUpdate.style.opacity = 0
+            netUpdate.classList.remove("visible")
 
         }, 2500);
 
@@ -49,6 +51,7 @@ const network=(status)=>{
     else{
         netUpdate.style.opacity = 1
         netContent.style.color ='#e42e21'
+        netUpdate.classList.add("visible")
 
         console.log('off')
         netContent.textContent = 'You are offline.Please check your internet.'
@@ -116,6 +119,8 @@ $(".pop-img").attr("src",c)
 //alert close
 closeAlert.addEventListener("click", () => {
 netUpdate.style.opacity=0
+    netUpdate.classList.remove("visible")
+
 
 })
 
